@@ -3,9 +3,9 @@
 
 int main(){
     char str[] = "Hola!!";
-    int letras = strlen(str);
+    size_t letras = strlen(str);
 
-    for (int i = 0; i < letras; i++) {
+    for (size_t i = 0; i < letras; i++) {
     if (str[i] >= 'a' && str[i] <= 'z') { 
         str[i] = str[i] + ('A' - 'a');    
         }
